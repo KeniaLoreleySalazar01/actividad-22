@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://www.piglatin.io/images/aboutPigLatin.svg" rel="stylesheet">
+    <title>Pig Latin Project</title>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Pig Latin Translator</h1>
+      <p>Pig Latin es un juego de palabras en inglés.El objetivo es terminar con una palabra lo suficientemente similar a la original para que la entienda alguien que esté familiarizado con el idioma, pero también lo suficientemente diferente como para que otra persona no la entienda.</p>
+      <p>No existe un conjunto oficial de reglas, pero el principio general sigue siendo bastante consistente dependiendo de con quién hables. Usamos el siguiente método:</p>
+      <p>Toma la primera letra de una palabra y muévela hasta el final.</p>
+      <p>Luego agregue "-ay".</p>
+       <img src="Animación.gif">
+    </header> 
+    <hr/>
+    <div id="container">
+    <label for="pigLatin">Put in one or more words</label><br>
+    <input id="wordInput" name="wordInput" value=""><br> 
+    <button onclick="translateWords()" type="button" id="translate-pl">PIG OUT</button>
+    <div id="showTranslation" style="font-size: 28px; font-family: 'Balsamiq Sans', cursive;"></div>
+    </div>
+    <hr/>
+  </body>
+</html>
